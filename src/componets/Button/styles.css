@@ -1,0 +1,34 @@
+/* .button-container {
+  padding: 25px 0;
+  //configuration has been setted in Home styles.css
+}*/
+
+/* 
+.button-container button {
+  width: 100%;
+  background: red;
+  padding: 10px 0;
+  font: 20px arial;
+  cursor: pointer;
+  //has been created a button className in index.jsx of button directory 
+} 
+ */
+.button {
+  width: 100%;
+  background: darkblue;
+  color: whitesmoke;
+  border: none;
+  padding: 8px 0px;
+  font: 20px arial;
+  cursor: pointer;
+
+}
+.button:hover {
+  background: blue;
+  color: #eaeaea;
+}
+
+.button:disabled {
+  background: #858282;
+  cursor: not-allowed;
+}
