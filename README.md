@@ -1,5 +1,10 @@
 <<<<<<< HEAD
-<<<<<<< HEAD
+
+# This project was successfully deployed at Netlify
+
+[Click here](https://fervent-mclean-7191ca.netlify.app) to see it working.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
