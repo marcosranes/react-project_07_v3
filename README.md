@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # reactproject_07_v3
 Instance of fetching application with ReactJs
 >>>>>>> 9adc1bd91a913c00960d063eb3eb5fd3a993f1b5
+=======
+# react-project_07_v3
+Deploying at Netlify an Application with feching JSon API - in construction yet
+>>>>>>> 85aaf65726c91fc43be6127d571052880796f26f
