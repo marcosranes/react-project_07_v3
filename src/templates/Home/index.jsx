@@ -1,11 +1,11 @@
 import "./styles.css";
 
-/* import { PostCard } from "./componets/PostCard/index.jsx"; */
+/* import { PostCard } from "./components/PostCard/index.jsx"; */
 import { Component } from "react";
 import { load_Posts } from "../../utils/load-posts";
-import { Posts } from "../../componets/Posts";
-import { Button } from "../../componets/Button";
-import { TextInput } from "../../componets/TextInput";
+import { Posts } from "../../components/Posts";
+import { Button } from "../../components/Button";
+import { TextInput } from "../../components/TextInput";
 
 export class Home extends Component {
   state = {
