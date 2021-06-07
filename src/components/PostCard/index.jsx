@@ -1,51 +1,9 @@
-import "./styles.css";
-/* 
-export const PostCard = (props) => {
-  const post = props.post;
-  return (
-    <div className="post">
-      <img src={post.cover} alt={post.title} />
-      <div key={post.id} className="post-content">
-        <h1>{post.title}</h1>
-        <p>{post.body}</p>
-      </div>
-    </div>
-  );
-}
- */
-/* 
-//destructuring post
-export const PostCard = (props) => {
-  const {post} = props;
-  return (
-    <div className="post">
-      <img src={post.cover} alt={post.title} />
-      <div key={post.id} className="post-content">
-        <h1>{post.title}</h1>
-        <p>{post.body}</p>
-      </div>
-    </div>
-  );
-}
- */
-/* 
-//destructuring post in props parameter
-export const PostCard = ({post}) => {
+import P from 'prop-types';
+import './styles.css';
 
-  return (
-    <div className="post">
-      <img src={post.cover} alt={post.title} />
-      <div key={post.id} className="post-content">
-        <h1>{post.title}</h1>
-        <p>{post.body}</p>
-      </div>
-    </div>
-  );
-}
- */
-//extensive mode
 export const PostCard = ({ title, cover, body, id, _index }) => (
   <div className="post">
+    <p>{id}</p>
     <img src={cover} alt={title} />
     <div className="post-content">
       <h2>
@@ -56,3 +14,11 @@ export const PostCard = ({ title, cover, body, id, _index }) => (
     </div>
   </div>
 );
+
+PostCard.propTypes = {
+  title: P.string.isRequired,
+  cover: P.string.isRequired,
+  body: P.string.isRequired,
+  id: P.number.isRequired,
+  _index: P.number.isRequired,
+};
